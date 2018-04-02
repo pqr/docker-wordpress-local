@@ -8,6 +8,7 @@ services:
       - 8080:80
     volumes:
       - ./wordpress:/var/www/html
+      - ./php.ini:/usr/local/etc/php/php.ini
     environment:
       WORDPRESS_DB_PASSWORD: example
 
