@@ -1,7 +1,7 @@
 # docker-wordpress-local
 Для запуска перейти в директорию, где находится docker-compose.yml файл, выполнить команду:
 ```
-docker-compose up
+docker-compose up --build
 ```
 В этот момент запускается два контейнера:
 1. Apache+PHP+Wordpress
